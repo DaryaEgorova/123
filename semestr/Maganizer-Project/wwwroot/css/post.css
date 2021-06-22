@@ -1,0 +1,32 @@
+﻿#sendComment {
+    float: left;
+    padding: 15px 20px;
+    background: #DD4800;
+    border-radius: 2px;
+    border: 0 none;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: "Poppins",sans-serif;
+    width: 100%;
+}
+
+#posttitle
+{
+    font-size:40px;
+}
+
+.comment-list
+{
+    max-height:600px;
+    overflow-y: auto;
+}
+
+.single-post-page .featured-image {
+    overflow: hidden;
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-bottom: 30px;
+    height: 600px;
+}

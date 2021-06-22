@@ -1,0 +1,70 @@
+﻿@model Maganizer_Project.Models.AdminPostEditorViewModel
+
+@{
+    Layout = "_AdminLayout";
+    ViewData["Active"] = "PostEditor";
+    ViewData["Title"] = "Post Editor | Admin";
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/froala-editor@3.1.0/css/froala_editor.pkgd.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/froala-editor@3.1.0//js/froala_editor.pkgd.min.js"></script>
+
+    <div class="sample">
+        <h2>Post Editor</h2>
+        <form asp-controller="Admin" asp-action="MakePost" enctype="multipart/form-data" method="post">
+            @if (Model != null && Model.SuccessPost)
+            {
+                <div class="alert alert-success" role="alert">
+                    <a class="close" data-dismiss="alert"></a>
+                    <p>Your new post is approved and will be uploaded very soon. Please wait</p>
+                </div>
+            }
+            @if (ViewData.ModelState.Any(x => x.Value.Errors.Any()))
+            {
+                <div class="alert alert-danger" role="alert">
+                    <a class="close" data-dismiss="alert"></a>
+                    @foreach (var modelError in Html.ViewData.ModelState.SelectMany(keyValuePair => keyValuePair.Value.Errors))
+                    {
+                        <p>@modelError.ErrorMessage</p>
+                    }
+                </div>
+            }
+            <div class="input-group mb-3">
+                <input asp-for="PostName" placeholder="Enter post's name" type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+            </div>
+            <div class="mb-3">
+                <label for="formFile" class="form-label">Choose your new post's featured image</label>
+                <input asp-for="FeaturedImage" class="form-control" type="file" id="formFile">
+                <img id="postImage" style="margin-top:10px; height:350px" src="#"/>
+            </div>
+            <div class="input-group mb-3">
+                <input asp-for="Tags" placeholder="Enter desired tags separated by a space" type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+            </div>
+            <textarea asp-for="PostContent" id="edit"></textarea>
+            <button id="postSubmit" class="btn btn-primary" type="submit">Post</button>
+        </form>
+    </div>
+
+    <script>
+        new FroalaEditor('#edit', {
+            // Set the image upload URL.
+            imageUploadURL: '/UploadFiles',
+
+            imageUploadParams: {
+                id: 'my_editor'
+            }
+        })
+    </script>
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/js/scripts.js"></script>
+</body>
+
+</html>

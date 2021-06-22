@@ -1,0 +1,141 @@
+/**
+ * Owl Carousel v2.3.4
+ * Copyright 2013-2018 David Deutsch
+ * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
+ */
+.elementor-2649 .elementor-element.elementor-element-f666deb>.elementor-container {
+	max-width: 1170px
+}
+
+.elementor-2649 .elementor-element.elementor-element-f666deb:not(.elementor-motion-effects-element-type-background),
+.elementor-2649 .elementor-element.elementor-element-f666deb>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+	background-color: #131C23
+}
+
+.elementor-2649 .elementor-element.elementor-element-f666deb {
+	border-style: solid;
+	border-width: 1px 0 0 0;
+	border-color: #EDEDED;
+	transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+	padding: 60px 0 50px 0
+}
+
+.elementor-2649 .elementor-element.elementor-element-f666deb>.elementor-background-overlay {
+	transition: background 0.3s, border-radius 0.3s, opacity 0.3s
+}
+
+.elementor-2649 .elementor-element.elementor-element-80f72fa>.elementor-element-populated {
+	margin: 0 20px 0 0;
+	padding: 0 0 0 0
+}
+
+.elementor-2649 .elementor-element.elementor-element-bef3c80>.elementor-widget-container {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0
+}
+
+.elementor-2649 .elementor-element.elementor-element-fa1ea8a .elementor-text-editor {
+	column-gap: 0
+}
+
+.elementor-2649 .elementor-element.elementor-element-fa1ea8a>.elementor-widget-container {
+	margin: -10px 0 0 0
+}
+
+.elementor-2649 .elementor-element.elementor-element-e8d6f71>.elementor-element-populated {
+	padding: 0 20px 0 20px
+}
+
+.elementor-2649 .elementor-element.elementor-element-8d7c5ef .main-title .left-side-text h2 {
+	color: #F6F6F6
+}
+
+.elementor-2649 .elementor-element.elementor-element-8d7c5ef .main-title .left-side-text h2 .first-class:before {
+	background-color: #38AFDA6E
+}
+
+.elementor-2649 .elementor-element.elementor-element-8d7c5ef .main-title .sub-text-new {
+	color: #9A9A9A
+}
+
+.elementor-2649 .elementor-element.elementor-element-8d7c5ef .main-title .post-counter {
+	border-color: #272727
+}
+
+.elementor-2649 .elementor-element.elementor-element-8d7c5ef .height-sizer,
+.simple-post-list .post-list-package .list-post .post-image-left .height-sizer {
+	padding-top: 134%
+}
+
+.elementor-2649 .elementor-element.elementor-element-8d7c5ef .simple-post-list .post-content h2.simple-title-color {
+	color: #E3E3E3
+}
+
+.elementor-2649 .elementor-element.elementor-element-8d7c5ef .left-post-list-package.vertic-post-ss,
+.main-title .post-counter {
+	border-color: #6D6D6D45
+}
+
+.elementor-2649 .elementor-element.elementor-element-6ad88e3>.elementor-element-populated {
+	padding: 0 0 0 20px
+}
+
+.elementor-2649 .elementor-element.elementor-element-00ae696 .main-title .left-side-text h2 {
+	color: #F6F6F6
+}
+
+.elementor-2649 .elementor-element.elementor-element-00ae696 .main-title .left-side-text h2 .first-class:before {
+	background-color: #9E35C678
+}
+
+.elementor-2649 .elementor-element.elementor-element-00ae696 .main-title .sub-text-new {
+	color: #9A9A9A
+}
+
+.elementor-2649 .elementor-element.elementor-element-00ae696 .main-title .post-counter {
+	border-color: #272727
+}
+
+.elementor-2649 .elementor-element.elementor-element-00ae696 .tags-cloud .all-post-tags li a {
+	border-color: #3A3A3A;
+	color: #B7B7B7
+}
+
+@media(max-width:1024px) {
+	.elementor-2649 .elementor-element.elementor-element-f666deb {
+		padding: 30px 15px 0 15px
+	}
+}
+
+@media(max-width:767px) {
+	.elementor-2649 .elementor-element.elementor-element-80f72fa>.elementor-element-populated {
+		padding: 0 0 0 0
+	}
+	.elementor-2649 .elementor-element.elementor-element-bef3c80>.elementor-widget-container {
+		padding: 0 0 0 0
+	}
+	.elementor-2649 .elementor-element.elementor-element-e8d6f71>.elementor-element-populated {
+		padding: 0 0 0 0
+	}
+	.elementor-2649 .elementor-element.elementor-element-8d7c5ef>.elementor-widget-container {
+		margin: 40px 0 0 0
+	}
+	.elementor-2649 .elementor-element.elementor-element-6ad88e3>.elementor-element-populated {
+		padding: 0 0 0 0
+	}
+	.elementor-2649 .elementor-element.elementor-element-00ae696>.elementor-widget-container {
+		margin: 40px 0 40px 0
+	}
+}
+
+@media(min-width:768px) {
+	.elementor-2649 .elementor-element.elementor-element-80f72fa {
+		width: 29.487%
+	}
+	.elementor-2649 .elementor-element.elementor-element-e8d6f71 {
+		width: 37.265%
+	}
+	.elementor-2649 .elementor-element.elementor-element-6ad88e3 {
+		width: 32.58%
+	}
+}

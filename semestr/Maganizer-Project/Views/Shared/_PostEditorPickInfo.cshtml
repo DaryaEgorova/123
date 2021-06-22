@@ -1,0 +1,52 @@
+﻿@model Maganizer_Project.Models.PostEditorPicksViewModel
+
+<div class="main-title">
+    <div class="left-side-text">
+        <h2><span id="whitetext" class="first-class">Editor</span><span class="highlight">Pic</span></h2>
+        <span id="sub-text-new" class="sub-text-new">Most Read post</span>
+    </div>
+    @*<span class="post-counter">
+        <a href="https://preview.spraythemes.com/maganizer/category/mix-of-art/">See All</a>
+    </span>*@
+</div>
+
+<div class="post-content">
+
+    @foreach (var x in Model.Posts)
+    {
+        <div class="left-post-list-package vertic-post-ss">
+            <div class="list-post">
+                <div class="post-image-left">
+                    <div class="height-sizer"></div>
+                    <img width="140" height="100" src="data:image/jpeg; base64, @(Convert.ToBase64String(x.FeaturedImage))" class="attachment-maganizer-small-post-thumb size-maganizer-small-post-thumb wp-post-image" alt="@x.Name" loading="lazy" data-eio="j" />
+                    
+                </div>
+                <div class="content-section-right">
+                    <div class="post-meta-data">
+                        <span class="posted-by black">By</span>
+                        <a asp-controller="UserProfile" asp-action="GetProfile" asp-route-username="@x.AuthorName" class="meta-links author redlink">@x.AuthorName</a>
+
+                        @if ((DateTime.Now.Month - x.PostedOn.Month) + 12 * (DateTime.Now.Year - x.PostedOn.Year) > 0)
+                        {
+                            <span class="meta-links post-date black placeright">@((DateTime.Now.Month - x.PostedOn.Month) + 12 * (DateTime.Now.Year - x.PostedOn.Year)) months ago</span>
+
+                        }
+                        else
+                        {
+                            <span class="meta-links post-date black placeright">This month</span>
+                        }
+
+                    </div>
+                    <a asp-controller="Post" asp-action="GetPost" asp-route-name="@x.Name">
+                        <h2 id="whitetext" class="simple-title-color">
+                            @x.Name
+                        </h2>
+                    </a>
+                </div>
+            </div>
+        </div>
+    }
+
+
+
+</div>

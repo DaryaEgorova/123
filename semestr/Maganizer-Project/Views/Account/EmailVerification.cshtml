@@ -1,0 +1,84 @@
+﻿@model Maganizer_Project.Models.EmailVerificationViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Sign Up | Maganizer</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="~/images/cropped-01-progress-32x32.gif" sizes="32x32">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="~/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="~/fonts/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="~/fonts/icon-font.min.css">
+
+    <link rel="stylesheet" type="text/css" href="~/css/animate.css">
+
+    <link rel="stylesheet" type="text/css" href="~/css/hamburgers.min.css">
+
+    <link rel="stylesheet" type="text/css" href="~/css/animsition.min.css">
+
+    <link rel="stylesheet" type="text/css" href="~/css/select2.min.css">
+
+    <link rel="stylesheet" type="text/css" href="~/css/daterangepicker.css">
+
+    <link rel="stylesheet" type="text/css" href="~/css/util.css">
+
+    <link rel="stylesheet" type="text/css" href="~/css/login.css">
+
+</head>
+
+<body>
+    <div class="limiter">
+        <div class="container-login100">
+            <div class="wrap-login100">
+                <div class="login100-form-title"
+                     style="background-image: url(images/logo.svg); background-size: auto;">
+                    <span class="login100-form-title-1">
+                        <ul class="links">
+                            <li class="signup-active">
+                                <h2>Email Verification</h2>
+                            </li>
+                        </ul>
+                    </span>
+                </div>
+
+                <div class="email-verification">
+                    <div class="container">
+                        <p><h2>Your confirmation email has been sent.</h2></p>
+                    </div>
+
+                    <div class="crunch">
+                        <p><h2>Please check your email to verify it.</h2></p>
+                    </div>
+
+                    <br>
+                    
+                    <div class="container">
+                        <p><h2>If you didn't get your verification email, please <a class="link" asp-route-verificationCode ="@Model.VerificationCode"
+                                                                                         asp-route-userId="@Model.UserId"
+                                                                                         asp-route-email="@Model.Email"
+                                                                                         asp-route-username="@Model.Username"
+                                                                                         asp-controller="Account"
+                                                                                         asp-action="SendMessage">click here</a> to send it one more time</h2></p>
+                    </div>
+                </div>
+                
+
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+

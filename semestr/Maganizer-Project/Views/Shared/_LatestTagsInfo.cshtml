@@ -1,0 +1,24 @@
+﻿@model Maganizer_Project.Models.TagsViewModel
+
+
+<ul class="all-post-tags ">
+    @if (Model.Tags.Count() < 15)
+    {
+        @for (int i = 0; i < Model.Tags.Count(); i++)
+        {
+            <li><a asp-controller="Archives" asp-action="GetTag" asp-route-name="@Model.Tags[i].Name" title="@Model.Tags[i].Name">@Model.Tags[i].Name</a></li>
+
+        }
+    }
+    else
+    {
+        @for (int i = 0; i < 15; i++)
+        {
+            <li><a asp-controller="Archives" asp-action="GetTag" asp-route-name="@Model.Tags[i].Name" title="@Model.Tags[i].Name">@Model.Tags[i].Name</a></li>
+
+        }
+    }
+
+
+
+</ul>

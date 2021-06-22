@@ -1,0 +1,685 @@
+.elementor-widget-heading .elementor-heading-title {
+	color: var(--e-global-color-primary);
+	font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+	font-weight: var(--e-global-typography-primary-font-weight)
+}
+
+.elementor-widget-image .widget-image-caption {
+	color: var(--e-global-color-text);
+	font-family: var(--e-global-typography-text-font-family), Sans-serif;
+	font-weight: var(--e-global-typography-text-font-weight)
+}
+
+.elementor-widget-text-editor {
+	color: var(--e-global-color-text);
+	font-family: var(--e-global-typography-text-font-family), Sans-serif;
+	font-weight: var(--e-global-typography-text-font-weight)
+}
+
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+	background-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap,
+.elementor-widget-text-editor.elementor-drop-cap-view-default .elementor-drop-cap {
+	color: var(--e-global-color-primary);
+	border-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-button .elementor-button {
+	font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+	font-weight: var(--e-global-typography-accent-font-weight);
+	background-color: var(--e-global-color-accent)
+}
+
+.elementor-widget-divider {
+	--divider-color: var(--e-global-color-secondary)
+}
+
+.elementor-widget-divider .elementor-divider__text {
+	color: var(--e-global-color-secondary);
+	font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+	font-weight: var(--e-global-typography-secondary-font-weight)
+}
+
+.elementor-widget-divider.elementor-view-stacked .elementor-icon {
+	background-color: var(--e-global-color-secondary)
+}
+
+.elementor-widget-divider.elementor-view-framed .elementor-icon,
+.elementor-widget-divider.elementor-view-default .elementor-icon {
+	color: var(--e-global-color-secondary);
+	border-color: var(--e-global-color-secondary)
+}
+
+.elementor-widget-divider.elementor-view-framed .elementor-icon,
+.elementor-widget-divider.elementor-view-default .elementor-icon svg {
+	fill: var(--e-global-color-secondary)
+}
+
+.elementor-widget-image-box .elementor-image-box-content .elementor-image-box-title {
+	color: var(--e-global-color-primary);
+	font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+	font-weight: var(--e-global-typography-primary-font-weight)
+}
+
+.elementor-widget-image-box .elementor-image-box-content .elementor-image-box-description {
+	color: var(--e-global-color-text);
+	font-family: var(--e-global-typography-text-font-family), Sans-serif;
+	font-weight: var(--e-global-typography-text-font-weight)
+}
+
+.elementor-widget-icon.elementor-view-stacked .elementor-icon {
+	background-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-icon.elementor-view-framed .elementor-icon,
+.elementor-widget-icon.elementor-view-default .elementor-icon {
+	color: var(--e-global-color-primary);
+	border-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-icon.elementor-view-framed .elementor-icon,
+.elementor-widget-icon.elementor-view-default .elementor-icon svg {
+	fill: var(--e-global-color-primary)
+}
+
+.elementor-widget-icon-box.elementor-view-stacked .elementor-icon {
+	background-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-icon-box.elementor-view-framed .elementor-icon,
+.elementor-widget-icon-box.elementor-view-default .elementor-icon {
+	fill: var(--e-global-color-primary);
+	color: var(--e-global-color-primary);
+	border-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title,
+.elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title a {
+	font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+	font-weight: var(--e-global-typography-primary-font-weight)
+}
+
+.elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-description {
+	color: var(--e-global-color-text);
+	font-family: var(--e-global-typography-text-font-family), Sans-serif;
+	font-weight: var(--e-global-typography-text-font-weight)
+}
+
+.elementor-widget-star-rating .elementor-star-rating__title {
+	color: var(--e-global-color-text);
+	font-family: var(--e-global-typography-text-font-family), Sans-serif;
+	font-weight: var(--e-global-typography-text-font-weight)
+}
+
+.elementor-widget-image-gallery .gallery-item .gallery-caption {
+	font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+	font-weight: var(--e-global-typography-accent-font-weight)
+}
+
+.elementor-widget-icon-list .elementor-icon-list-item:not(:last-child):after {
+	border-color: var(--e-global-color-text)
+}
+
+.elementor-widget-icon-list .elementor-icon-list-icon i {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-icon-list .elementor-icon-list-icon svg {
+	fill: var(--e-global-color-primary)
+}
+
+.elementor-widget-icon-list .elementor-icon-list-text {
+	color: var(--e-global-color-secondary)
+}
+
+.elementor-widget-icon-list .elementor-icon-list-item,
+.elementor-widget-icon-list .elementor-icon-list-item a {
+	font-family: var(--e-global-typography-text-font-family), Sans-serif;
+	font-weight: var(--e-global-typography-text-font-weight)
+}
+
+.elementor-widget-counter .elementor-counter-number-wrapper {
+	color: var(--e-global-color-primary);
+	font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+	font-weight: var(--e-global-typography-primary-font-weight)
+}
+
+.elementor-widget-counter .elementor-counter-title {
+	color: var(--e-global-color-secondary);
+	font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+	font-weight: var(--e-global-typography-secondary-font-weight)
+}
+
+.elementor-widget-progress .elementor-progress-wrapper .elementor-progress-bar {
+	background-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-progress .elementor-title {
+	color: var(--e-global-color-primary);
+	font-family: var(--e-global-typography-text-font-family), Sans-serif;
+	font-weight: var(--e-global-typography-text-font-weight)
+}
+
+.elementor-widget-testimonial .elementor-testimonial-content {
+	color: var(--e-global-color-text);
+	font-family: var(--e-global-typography-text-font-family), Sans-serif;
+	font-weight: var(--e-global-typography-text-font-weight)
+}
+
+.elementor-widget-testimonial .elementor-testimonial-name {
+	color: var(--e-global-color-primary);
+	font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+	font-weight: var(--e-global-typography-primary-font-weight)
+}
+
+.elementor-widget-testimonial .elementor-testimonial-job {
+	color: var(--e-global-color-secondary);
+	font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+	font-weight: var(--e-global-typography-secondary-font-weight)
+}
+
+.elementor-widget-tabs .elementor-tab-title,
+.elementor-widget-tabs .elementor-tab-title a {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-tabs .elementor-tab-title.elementor-active,
+.elementor-widget-tabs .elementor-tab-title.elementor-active a {
+	color: var(--e-global-color-accent)
+}
+
+.elementor-widget-tabs .elementor-tab-title {
+	font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+	font-weight: var(--e-global-typography-primary-font-weight)
+}
+
+.elementor-widget-tabs .elementor-tab-content {
+	color: var(--e-global-color-text);
+	font-family: var(--e-global-typography-text-font-family), Sans-serif;
+	font-weight: var(--e-global-typography-text-font-weight)
+}
+
+.elementor-widget-accordion .elementor-accordion-icon,
+.elementor-widget-accordion .elementor-accordion-title {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-accordion .elementor-active .elementor-accordion-icon,
+.elementor-widget-accordion .elementor-active .elementor-accordion-title {
+	color: var(--e-global-color-accent)
+}
+
+.elementor-widget-accordion .elementor-accordion .elementor-accordion-title {
+	font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+	font-weight: var(--e-global-typography-primary-font-weight)
+}
+
+.elementor-widget-accordion .elementor-accordion .elementor-tab-content {
+	color: var(--e-global-color-text);
+	font-family: var(--e-global-typography-text-font-family), Sans-serif;
+	font-weight: var(--e-global-typography-text-font-weight)
+}
+
+.elementor-widget-toggle .elementor-toggle-title,
+.elementor-widget-toggle .elementor-toggle-icon {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-toggle .elementor-tab-title.elementor-active a,
+.elementor-widget-toggle .elementor-tab-title.elementor-active .elementor-toggle-icon {
+	color: var(--e-global-color-accent)
+}
+
+.elementor-widget-toggle .elementor-toggle .elementor-toggle-title {
+	font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+	font-weight: var(--e-global-typography-primary-font-weight)
+}
+
+.elementor-widget-toggle .elementor-toggle .elementor-tab-content {
+	color: var(--e-global-color-text);
+	font-family: var(--e-global-typography-text-font-family), Sans-serif;
+	font-weight: var(--e-global-typography-text-font-weight)
+}
+
+.elementor-widget-alert .elementor-alert-title {
+	font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+	font-weight: var(--e-global-typography-primary-font-weight)
+}
+
+.elementor-widget-alert .elementor-alert-description {
+	font-family: var(--e-global-typography-text-font-family), Sans-serif;
+	font-weight: var(--e-global-typography-text-font-weight)
+}
+
+.elementor-widget-custom-title-design .main-title .left-side-text h2 {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-custom-title-design .main-title .left-side-text h2 .first-class:before {
+	background-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-custom-title-design .main-title.style-two {
+	border-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-custom-title-design .main-title .sub-text-new,
+{
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-custom-title-design .main-title.style-two .left-side-text h2 .first-class {
+	background-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-custom-title-design .main-title.style-three {
+	border-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-custom-title-design .main-title .post-counter {
+	border-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-latest-post-widget .main-title .left-side-text h2 {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-latest-post-widget .main-title .left-side-text h2 .first-class:before {
+	background-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-latest-post-widget .main-title .sub-text-new {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-latest-post-widget .main-title .post-counter {
+	border-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-modern-post-slider .title {
+	.full-block-slider .gradient-color-css: var(--e-global-color-primary)
+}
+
+.elementor-widget-featured-post-widget .main-title .left-side-text h2 {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-featured-post-widget .main-title .left-side-text h2 .first-class:before {
+	background-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-featured-post-widget .main-title .sub-text-new {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-featured-post-widget .main-title .post-counter {
+	border-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-popular-post-widget .main-title .left-side-text h2 {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-popular-post-widget .main-title .left-side-text h2 .first-class:before {
+	background-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-popular-post-widget .main-title .sub-text-new {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-full-image-slider .main-title .left-side-text h2 {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-full-image-slider .main-title .left-side-text h2 .first-class:before {
+	background-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-full-image-slider .main-title .arrow-sliders .arrow-size,
+.main-title .arrow-sliders .arrow-size.right_arrow {
+	border-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-full-image-slider .main-title .arrow-sliders .arrow-size i {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-full-image-slider .main-title .sub-text-new {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-ajax-archive-post .main-title .left-side-text h2 {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-ajax-archive-post .main-title .left-side-text h2 .first-class:before {
+	background-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-ajax-archive-post .main-title .sub-text-new {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-ajax-archive-post .main-title .post-counter {
+	border-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-ajax-archive-post-list .main-title .left-side-text h2 {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-ajax-archive-post-list .main-title .left-side-text h2 .first-class:before {
+	background-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-ajax-archive-post-list .main-title .sub-text-new {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-ajax-archive-post-list .main-title .post-counter {
+	border-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-instagram-feed-design .main-title .left-side-text h2 {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-instagram-feed-design .main-title .left-side-text h2 .first-class:before {
+	background-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-instagram-feed-design .main-title .sub-text-new {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-instagram-feed-design .main-title .post-counter {
+	border-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-single-page-design .header-title h1.entry-title {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-single-page-design .main-post-content p {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-single-page-design .main-title .left-side-text h2 {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-single-page-design .main-title .left-side-text h2 .first-class:before {
+	background-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-single-page-design .main-title .sub-text-new {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-single-page-design .main-comment-panel .main-title .left-side-text h2 {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-single-page-design .main-comment-panel .main-title .left-side-text h2 .first-class:before {
+	background-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-single-page-design .main-comment-panel .main-title .sub-text-new {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-abstract-post-widget .main-title .left-side-text h2 {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-abstract-post-widget .main-title .left-side-text h2 .first-class:before {
+	background-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-abstract-post-widget .main-title .sub-text-new {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-abstract-post-widget .main-title .post-counter {
+	border-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-all_tag_list .main-title .left-side-text h2 {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-all_tag_list .main-title .left-side-text h2 .first-class:before {
+	background-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-all_tag_list .main-title .sub-text-new {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-all_tag_list .main-title .post-counter {
+	border-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-all_tag_list .tags-cloud .all-post-tags li a {
+	border-color: var(--e-global-color-primary);
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-category-full-slider .main-title .left-side-text h2 {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-category-full-slider .main-title .left-side-text h2 .first-class:before {
+	background-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-category-full-slider .main-title .sub-text-new {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-category-full-slider .main-title .post-counter {
+	border-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-archive_info .info-card-plcement .card-info {
+	background: var(--e-global-color-primary)
+}
+
+.elementor-widget-text-base-slider .main-title .left-side-text h2 {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-text-base-slider .main-title .post-counter.no-background {
+	border-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-text-base-slider .main-title .left-side-text h2 .first-class:before {
+	background-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-text-base-slider .main-title .sub-text-new {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-simple-post-list .main-title .left-side-text h2 {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-simple-post-list .main-title .left-side-text h2 .first-class:before {
+	background-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-simple-post-list .main-title .sub-text-new {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-simple-post-list .main-title .post-counter {
+	border-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-simple-post-list .simple-post-list .post-content h2.simple-title-color {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-simple-post-list .left-post-list-package.vertic-post-ss,
+.main-title .post-counter {
+	border-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-Full-page-slider .main-title .left-side-text h2 {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-Full-page-slider .main-title .left-side-text h2 .first-class:before {
+	background-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-Full-page-slider .main-title .sub-text-new {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-Full-page-slider .main-title .arrow-sliders .arrow-size,
+.main-title .arrow-sliders .arrow-size.right_arrow {
+	border-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-Full-page-slider .main-title .arrow-sliders .arrow-size i {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-link-list .main-title .left-side-text h2 {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-link-list .main-title .left-side-text h2 .first-class:before {
+	background-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-link-list .main-title .sub-text-new {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-link-list .main-title .post-counter {
+	border-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-link-list .link-collection ul li a {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-main-menu-header .menu-main-menu-container,
+.mobile-menu-burger.custom-design-ode {
+	background: var(--e-global-color-primary)
+}
+
+.elementor-widget-main-menu-header .menu-side.custom ul li .sub-menu {
+	background: var(--e-global-color-primary)
+}
+
+.elementor-widget-main-menu-header .menu-side.custom ul li a,
+.elementor-widget-main-menu-header .mobile-menu-burger i {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-main-menu-header .menu-side.custom ul li:hover a {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-main-menu-header .menu-side.custom ul li:hover:before {
+	background: var(--e-global-color-primary)
+}
+
+.elementor-widget-main-menu-header .menu-side.custom ul li .sub-menu li {
+	border-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-seach-box-full-scr .custom-main-search-box form input {
+	background: var(--e-global-color-primary)
+}
+
+.elementor-widget-seach-box-full-scr .custom-main-search-box form input {
+	border-color: var(--e-global-color-primary);
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-today-date-current-header .today-date {
+	color: var(--e-global-color-primary);
+	background: var(--e-global-color-primary)
+}
+
+.elementor-widget-top-menu-header .top-header-menu {
+	background: var(--e-global-color-primary)
+}
+
+.elementor-widget-top-menu-header .top-header-menu ul li a {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-top-menu-header .top-header-menu ul li:hover a {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-woo-products-by-cat-category .main-title .left-side-text h2 {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-woo-products-by-cat-category .main-title .left-side-text h2 .first-class:before {
+	background-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-woo-products-by-cat-category .main-title .sub-text-new {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-woo-products-by-cat-category .woo-slider .slider-woo .products-cat-list li .add_to_cart_button.ajax_add_to_cart {
+	background: var(--e-global-color-primary);
+	border-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-woo-product-gallery .main-title .left-side-text h2 {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-woo-product-gallery .main-title .left-side-text h2 .first-class:before {
+	background-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-woo-product-gallery .main-title .sub-text-new {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-woo-product-gallery .woo-slider .slider-woo .products-cat-list li .add_to_cart_button.ajax_add_to_cart {
+	background: var(--e-global-color-primary);
+	border-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-woo-tags-collection .main-title .left-side-text h2 {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-woo-tags-collection .main-title .left-side-text h2 .first-class:before {
+	background-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-woo-tags-collection .main-title .sub-text-new {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-woo-cats-collection .main-title .left-side-text h2 {
+	color: var(--e-global-color-primary)
+}
+
+.elementor-widget-woo-cats-collection .main-title .left-side-text h2 .first-class:before {
+	background-color: var(--e-global-color-primary)
+}
+
+.elementor-widget-woo-cats-collection .main-title .sub-text-new {
+	color: var(--e-global-color-primary)
+}
