@@ -1,0 +1,36 @@
+D:\Study\Course 2\IT\Семестровая работа 2\Backend\Project_News_Site\Maganizer_Project.DAL\bin\Debug\netcoreapp3.1\Maganizer-Project.DAL.deps.json
+D:\Study\Course 2\IT\Семестровая работа 2\Backend\Project_News_Site\Maganizer_Project.DAL\bin\Debug\netcoreapp3.1\Maganizer-Project.DAL.dll
+D:\Study\Course 2\IT\Семестровая работа 2\Backend\Project_News_Site\Maganizer_Project.DAL\obj\Debug\netcoreapp3.1\Maganizer-Project.DAL.csprojAssemblyReference.cache
+D:\Study\Course 2\IT\Семестровая работа 2\Backend\Project_News_Site\Maganizer_Project.DAL\obj\Debug\netcoreapp3.1\Maganizer-Project.DAL.AssemblyInfoInputs.cache
+D:\Study\Course 2\IT\Семестровая работа 2\Backend\Project_News_Site\Maganizer_Project.DAL\obj\Debug\netcoreapp3.1\Maganizer-Project.DAL.AssemblyInfo.cs
+D:\Study\Course 2\IT\Семестровая работа 2\Backend\Project_News_Site\Maganizer_Project.DAL\bin\Debug\netcoreapp3.1\Maganizer-Project.DAL.runtimeconfig.json
+D:\Study\Course 2\IT\Семестровая работа 2\Backend\Project_News_Site\Maganizer_Project.DAL\bin\Debug\netcoreapp3.1\Maganizer-Project.DAL.runtimeconfig.dev.json
+D:\Study\Course 2\IT\Семестровая работа 2\Backend\Project_News_Site\Maganizer_Project.DAL\obj\Debug\netcoreapp3.1\Maganizer-Project.DAL.genruntimeconfig.cache
+D:\Study\Course 2\IT\Семестровая работа 2\Backend\Project_News_Site\Maganizer_Project.DAL\bin\Debug\netcoreapp3.1\Maganizer-Project.DAL.pdb
+D:\Study\Course 2\IT\Семестровая работа 2\Backend\Project_News_Site\Maganizer_Project.DAL\obj\Debug\netcoreapp3.1\Maganizer-Project.DAL.dll
+D:\Study\Course 2\IT\Семестровая работа 2\Backend\Project_News_Site\Maganizer_Project.DAL\obj\Debug\netcoreapp3.1\Maganizer-Project.DAL.pdb
+D:\Study\Course 2\IT\Семестровая работа 2\Backend\Project_News_Site\Maganizer_Project.DAL\obj\Debug\netcoreapp3.1\Maganizer-Project.DAL.csproj.CoreCompileInputs.cache
+C:\NewProgram\GithubRepository\Project_News_Site\Maganizer_Project.DAL\bin\Debug\netcoreapp3.1\Maganizer-Project.DAL.deps.json
+C:\NewProgram\GithubRepository\Project_News_Site\Maganizer_Project.DAL\bin\Debug\netcoreapp3.1\Maganizer-Project.DAL.runtimeconfig.json
+C:\NewProgram\GithubRepository\Project_News_Site\Maganizer_Project.DAL\bin\Debug\netcoreapp3.1\Maganizer-Project.DAL.runtimeconfig.dev.json
+C:\NewProgram\GithubRepository\Project_News_Site\Maganizer_Project.DAL\bin\Debug\netcoreapp3.1\Maganizer-Project.DAL.dll
+C:\NewProgram\GithubRepository\Project_News_Site\Maganizer_Project.DAL\bin\Debug\netcoreapp3.1\Maganizer-Project.DAL.pdb
+C:\NewProgram\GithubRepository\Project_News_Site\Maganizer_Project.DAL\obj\Debug\netcoreapp3.1\Maganizer-Project.DAL.csprojAssemblyReference.cache
+C:\NewProgram\GithubRepository\Project_News_Site\Maganizer_Project.DAL\obj\Debug\netcoreapp3.1\Maganizer-Project.DAL.AssemblyInfoInputs.cache
+C:\NewProgram\GithubRepository\Project_News_Site\Maganizer_Project.DAL\obj\Debug\netcoreapp3.1\Maganizer-Project.DAL.AssemblyInfo.cs
+C:\NewProgram\GithubRepository\Project_News_Site\Maganizer_Project.DAL\obj\Debug\netcoreapp3.1\Maganizer-Project.DAL.csproj.CoreCompileInputs.cache
+C:\NewProgram\GithubRepository\Project_News_Site\Maganizer_Project.DAL\obj\Debug\netcoreapp3.1\Maganizer-Project.DAL.dll
+C:\NewProgram\GithubRepository\Project_News_Site\Maganizer_Project.DAL\obj\Debug\netcoreapp3.1\Maganizer-Project.DAL.pdb
+C:\NewProgram\GithubRepository\Project_News_Site\Maganizer_Project.DAL\obj\Debug\netcoreapp3.1\Maganizer-Project.DAL.genruntimeconfig.cache
+C:\Users\Администратор\sem4\semestr\Maganizer_Project.DAL\bin\Debug\netcoreapp3.1\Maganizer-Project.DAL.deps.json
+C:\Users\Администратор\sem4\semestr\Maganizer_Project.DAL\bin\Debug\netcoreapp3.1\Maganizer-Project.DAL.runtimeconfig.json
+C:\Users\Администратор\sem4\semestr\Maganizer_Project.DAL\bin\Debug\netcoreapp3.1\Maganizer-Project.DAL.runtimeconfig.dev.json
+C:\Users\Администратор\sem4\semestr\Maganizer_Project.DAL\bin\Debug\netcoreapp3.1\Maganizer-Project.DAL.dll
+C:\Users\Администратор\sem4\semestr\Maganizer_Project.DAL\bin\Debug\netcoreapp3.1\Maganizer-Project.DAL.pdb
+C:\Users\Администратор\sem4\semestr\Maganizer_Project.DAL\obj\Debug\netcoreapp3.1\Maganizer-Project.DAL.csprojAssemblyReference.cache
+C:\Users\Администратор\sem4\semestr\Maganizer_Project.DAL\obj\Debug\netcoreapp3.1\Maganizer-Project.DAL.AssemblyInfoInputs.cache
+C:\Users\Администратор\sem4\semestr\Maganizer_Project.DAL\obj\Debug\netcoreapp3.1\Maganizer-Project.DAL.AssemblyInfo.cs
+C:\Users\Администратор\sem4\semestr\Maganizer_Project.DAL\obj\Debug\netcoreapp3.1\Maganizer-Project.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Администратор\sem4\semestr\Maganizer_Project.DAL\obj\Debug\netcoreapp3.1\Maganizer-Project.DAL.dll
+C:\Users\Администратор\sem4\semestr\Maganizer_Project.DAL\obj\Debug\netcoreapp3.1\Maganizer-Project.DAL.pdb
+C:\Users\Администратор\sem4\semestr\Maganizer_Project.DAL\obj\Debug\netcoreapp3.1\Maganizer-Project.DAL.genruntimeconfig.cache
