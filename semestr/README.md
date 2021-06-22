@@ -1,6 +1,3 @@
-# Project_News_Site <br/>
-Semester Work №2. Team members: Amir Taziev, Artur Shamiyarov, Maksim Mustafin. <br/>
-
 # Layout for views <br/>
 This is a layout for next pages (see 'Site - FrontEnd' in Projects): <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - "Post" <br/>
